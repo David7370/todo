@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.todo {
+    color: #007FDB;
+    margin-left: 300px;
+    margin-top: 300px;
+    font-size: 100px;
+}
+
+.container {
+    max-width: 300px; 
+    margin-top: -350px;
+    margin-left: 950px; 
+    height: 450px;
+    width: 350px;
+    padding: 20px; 
+    background-color: #f2f2f2; 
+    border-radius: 8px; 
+}
