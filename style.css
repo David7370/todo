@@ -22,11 +22,47 @@ header {
 
 .container {
     max-width: 300px; 
-    margin-top: -350px;
+    margin-top: -450px;
     margin-left: 950px; 
     height: 450px;
     width: 350px;
     padding: 20px; 
     background-color: #f2f2f2; 
     border-radius: 8px; 
+    color: white;
 }
+
+.todo-list {
+    margin-top: -250px;
+    margin-left: 950px; 
+}
+
+.moving-image {
+    position: absolute; 
+    top: 70px; 
+    left: 950px; 
+    width: 340px;
+  }
+
+  .todo-form {
+    position: relative;
+    bottom: 270px;
+    left: 980px;
+  }
+
+  .todo-button {
+    padding: 10px 20px;
+    background-color: #20EEB0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
